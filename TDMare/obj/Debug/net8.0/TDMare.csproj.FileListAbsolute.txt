@@ -1,0 +1,14 @@
+C:\Users\byaro\RiderProjects\TDMare\TDMare\bin\Debug\net8.0\TDMare.exe
+C:\Users\byaro\RiderProjects\TDMare\TDMare\bin\Debug\net8.0\TDMare.deps.json
+C:\Users\byaro\RiderProjects\TDMare\TDMare\bin\Debug\net8.0\TDMare.runtimeconfig.json
+C:\Users\byaro\RiderProjects\TDMare\TDMare\bin\Debug\net8.0\TDMare.dll
+C:\Users\byaro\RiderProjects\TDMare\TDMare\bin\Debug\net8.0\TDMare.pdb
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.AssemblyInfoInputs.cache
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.AssemblyInfo.cs
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.csproj.CoreCompileInputs.cache
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.dll
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\refint\TDMare.dll
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.pdb
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.genruntimeconfig.cache
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\ref\TDMare.dll
