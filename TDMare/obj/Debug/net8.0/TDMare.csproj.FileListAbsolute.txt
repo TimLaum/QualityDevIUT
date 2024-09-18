@@ -12,3 +12,4 @@ C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\refint\TDMare.dll
 C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.pdb
 C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.genruntimeconfig.cache
 C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\ref\TDMare.dll
+C:\Users\byaro\RiderProjects\TDMare\TDMare\obj\Debug\net8.0\TDMare.sourcelink.json
