@@ -1,13 +1,102 @@
 ﻿# Default ignored files
 /shelf/
 /workspace.xml
+
 # Rider ignored files
 /modules.xml
 /.idea.TDMare.iml
 /projectSettingsUpdater.xml
 /contentModel.xml
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# ---- C# / .NET specific ignore rules ----
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Uncomment if you have tasks that create the following files
+# *.log
+# *.vspscc
+# *.vssscc
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# Rider directories
+.idea/
+.idea_modules/
+
+# Local History for JetBrains IDEs
+/localhistory/
+
+# Rider to-do tasks
+/.idea/todo.xml
+/.idea/dictionaries/
+
+# Rider code style files
+/.idea/codeStyles/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.pyc
+*.pyo
+
+# Package directories
+*.nupkg
+**/packages/*
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.sap
+
+# IIS Express Logs
+iisexpress/
+
+# ASP.NET temporary files
+App_Data/
+
+# Visual Studio caches
+.vs/
+.vscode/
