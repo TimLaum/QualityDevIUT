@@ -1,5 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using TDMare.TdLibrairie;
 
-CD cd1 = new CD();
+class Program
+{
+    static void Main(string[] args)
+    {
+        Book  livre = new Book("Les Misérables", 101, 5, "Victor Hugo");
+        DVD dvd = new DVD("Inception", 202, 3, 148);
+        CD cd = new CD("Thriller", 303, 10, "Michael Jackson");
 
-cd1.Afficherinfos();
+        Media[] medias = { livre, dvd, cd };
+
+        foreach (var media in medias)
+        {
+            media.AfficherInfos();
+            Console.WriteLine();
+        }
+    }
+}
