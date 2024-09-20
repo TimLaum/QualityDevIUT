@@ -1,0 +1,15 @@
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\bin\Debug\net8.0\TD_mare_final.exe
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\bin\Debug\net8.0\TD_mare_final.deps.json
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\bin\Debug\net8.0\TD_mare_final.runtimeconfig.json
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\bin\Debug\net8.0\TD_mare_final.dll
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\bin\Debug\net8.0\TD_mare_final.pdb
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.AssemblyInfoInputs.cache
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.AssemblyInfo.cs
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.csproj.CoreCompileInputs.cache
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.sourcelink.json
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.dll
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\refint\TD_mare_final.dll
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.pdb
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\TD_mare_final.genruntimeconfig.cache
+C:\Bureau\COURS 3EME ANNEE\QUALITE_DEV\QualityDevIUT\TD_mare_final\TD_mare_final\obj\Debug\net8.0\ref\TD_mare_final.dll
