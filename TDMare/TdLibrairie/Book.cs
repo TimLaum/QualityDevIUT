@@ -2,15 +2,15 @@
 
 public class Book:Media
 {
-    public string Auteur { get; set; }
+    public string Author { get; set; }
 
-    public Book(string title, int referenceNumber, int stock, string auteur)
+    public Book(string title, int referenceNumber, int stock, string author)
         : base(title, referenceNumber, stock){
-        Auteur = auteur;
+        Author = author;
     }
 
-    public override void AfficherInfos(){
-        base.AfficherInfos();
-        Console.WriteLine($"Auteur: {Auteur}");
+    public override void DisplayInfo(){
+        base.DisplayInfo();
+        Console.WriteLine($"Auteur: {Author}");
     }
 }

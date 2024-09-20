@@ -2,15 +2,15 @@
 
 public class CD:Media
 {
-    public string Artiste { get; set; }
+    public string Artist { get; set; }
     
-        public CD(string title, int referenceNumber, int stock, string artiste)
+        public CD(string title, int referenceNumber, int stock, string artist)
             : base(title, referenceNumber, stock){
-            Artiste = artiste;
+            Artist = artist;
         }
     
-        public override void AfficherInfos(){
-            base.AfficherInfos();
-            Console.WriteLine($"Artiste: {Artiste}");
+        public override void DisplayInfo(){
+            base.DisplayInfo();
+            Console.WriteLine($"Artiste: {Artist}");
         }
 }

@@ -7,12 +7,12 @@ public class Media
     public int Stock { get; set; }
 
     public Media(string title, int referenceNumber, int stock){
-        Title = title;
+        Title = title;  
         ReferenceNumber = referenceNumber;
         Stock = stock;
     }
     
-    public virtual void AfficherInfos() {
+    public virtual void DisplayInfo() {
         Console.WriteLine($"Titre: {Title}");
         Console.WriteLine($"Numéro de référence: {ReferenceNumber}");
         Console.WriteLine($"Nombre d'exemplaires disponibles: {Stock}");

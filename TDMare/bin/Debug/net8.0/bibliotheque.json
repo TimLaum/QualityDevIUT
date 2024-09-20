@@ -1,0 +1,17 @@
+[
+  {
+    "Title": "Les Mis\u00E9rables",
+    "ReferenceNumber": 101,
+    "Stock": 4
+  },
+  {
+    "Title": "Inception",
+    "ReferenceNumber": 202,
+    "Stock": 3
+  },
+  {
+    "Title": "Thriller",
+    "ReferenceNumber": 303,
+    "Stock": 9
+  }
+]

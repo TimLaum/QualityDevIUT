@@ -2,15 +2,15 @@
 
 public class DVD:Media
 {
-    public double Duree { get; set; } // Durée en minutes
+    public double Duration { get; set; } // Durée en minutes
 
-    public DVD(string title, int referenceNumber, int stock, double duree)
+    public DVD(string title, int referenceNumber, int stock, double duration)
         : base(title, referenceNumber, stock){
-        Duree = duree;
+        Duration = duration;
     }
 
-    public override void AfficherInfos(){
-        base.AfficherInfos();
-        Console.WriteLine($"Durée: {Duree} minutes");
+    public override void DisplayInfo(){
+        base.DisplayInfo();
+        Console.WriteLine($"Durée: {Duration} minutes");
     }
 }
