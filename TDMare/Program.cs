@@ -22,6 +22,9 @@ class Program
         try
         {
             library.BorrowMedia(book1, "Michael Jackson");
+            library.BorrowMedia(dvd1, "Michael Jackson");
+            library.BorrowMedia(cd1, "Patrick Bruel");
+            library.BorrowMedia(cd1, "Zinédine Zidane");
         }
         catch (NullReferenceException e)
         {
@@ -43,8 +46,40 @@ class Program
             // Gestion de toutes les autres exceptions non spécifiques
             Console.WriteLine("Une erreur inattendue est survenue. Détails : " + e.Message);
         }
+        
+        
+        // Retour de média
+        try
+        {
+            library.ReturnMedia(book1, "Michael Jackson");
+            library.ReturnMedia(cd1, "Zinédine Zidane");
+        }
+        catch (NullReferenceException e)
+        {
+            // Gestion du cas où le média vaut null
+            Console.WriteLine("Erreur : Un argument est null. Détails : " + e.Message);
+        }
+        catch (ArgumentException e)
+        {
+            // Gestion du cas où le nom de l'emprunteur est invalide (vide ou incorrect)
+            Console.WriteLine("Erreur : Le nom de l'emprunteur est invalide. Détails : " + e.Message);
+        }
+        catch (Exception e)
+        {
+            // Gestion de toutes les autres exceptions non spécifiques
+            Console.WriteLine("Une erreur inattendue est survenue. Détails : " + e.Message);
+        }
+        
+        
+        // Affichage de chaque média
+        Console.WriteLine("\nMédias dans la bibliothèque");
+        foreach (var media in borrowedMedia)
+        {
+            media.DisplayInfo();
+        }
+ 
 /*
-        library.BorrowMedia(cd1, "Alice Martin");
+
 
         // Recherche de médias
         var searchResults = library.SearchMedia("Les Misérables");
@@ -54,13 +89,7 @@ class Program
             media.DisplayInfo();
         }
 
-        // Affichage des médias empruntés par John Doe
-        var borrowedMedia = library.ListMediaBorrowedByUser("John Doe");
-        Console.WriteLine("\nMédias empruntés par John Doe :");
-        foreach (var media in borrowedMedia)
-        {
-            media.DisplayInfo();
-        }
+
 
         // Retour du livre emprunté
         library.ReturnMedia(book1, "John Doe");
