@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TDMare
-build_property.ProjectDir = C:\Users\byaro\RiderProjects\TDMare\TDMare\
+build_property.ProjectDir = C:\Users\robin\RiderProjects\QualityDevIUT\TDMare\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
