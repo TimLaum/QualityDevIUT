@@ -96,6 +96,7 @@ public class Library
         Console.WriteLine( $"- Nombre de médias empruntés : {borrowedMedia}" );
     }
 
+        //Surcharge de l'opérateur + pour ajouter un média dans la librairie
         public static Library operator +( Library library, Media p_media )
     {
         Media existingMedia = library.mediaCollection.FirstOrDefault( m => m.Title == p_media.Title );
@@ -115,7 +116,7 @@ public class Library
         return library;
     }
 
-    // Surcharge de l'opérateur -
+    // Surcharge de l'opérateur - pour retirer un média de la librairie
     public static Library operator -( Library library, Media p_media )
     {
         Media existingMedia = library.mediaCollection.FirstOrDefault( m => m.Title == p_media.Title );
