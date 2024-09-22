@@ -7,6 +7,7 @@ public class Loan
     public string User { get; set; }
     public DateTime LoanDate { get; set; }
 
+    // Classe représentant la location de média
     public Loan( Media p_media, string p_user )
     {
         BorrowedMedia = p_media;

@@ -3,6 +3,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Exception;
 
+// Classe de base représentant la librairie
 public class Library
 {
     private List<Media> mediaCollection = new List<Media>( );

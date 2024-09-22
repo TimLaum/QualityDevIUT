@@ -1,5 +1,6 @@
 ﻿namespace TDMare.TdLibrairie;
 
+// Classe mère représentant les médias
 public class Media
 {
     public string Title { get; set; }

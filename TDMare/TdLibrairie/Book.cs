@@ -1,6 +1,6 @@
 ﻿namespace TDMare.TdLibrairie;
 
-
+// Classe représentatn le média Book
 public class Book:Media
 {
     public string Author { get; set; }

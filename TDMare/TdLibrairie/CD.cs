@@ -1,5 +1,6 @@
 ﻿namespace TDMare.TdLibrairie;
 
+// Classe représentant le média CD
 public class CD:Media
 {
     public string Artist { get; set; }

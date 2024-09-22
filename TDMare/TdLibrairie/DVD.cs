@@ -1,5 +1,6 @@
 ﻿namespace TDMare.TdLibrairie;
 
+// Classe représentant le média DVD
 public class DVD:Media
 {
     public double Duration { get; set; } // Durée en minutes
