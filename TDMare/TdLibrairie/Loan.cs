@@ -7,10 +7,10 @@ public class Loan
     public string User { get; set; }
     public DateTime LoanDate { get; set; }
 
-    public Loan(Media media, string user)
+    public Loan( Media p_media, string p_user )
     {
-        BorrowedMedia = media;
-        User = user;
+        BorrowedMedia = p_media;
+        User = p_user;
         LoanDate = DateTime.Now;
     }
 }
