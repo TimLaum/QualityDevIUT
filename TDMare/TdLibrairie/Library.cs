@@ -13,6 +13,8 @@ public class Library
         Console.WriteLine($"Média ajouté : {media.Title}");
     }
 
+    public List<Media> MediaCollection => mediaCollection;
+
     public void RemoveMedia(Media media)
     {
         mediaCollection.Remove(media);
@@ -46,6 +48,7 @@ public class Library
         {
             Console.WriteLine($"{user} n'a pas emprunté {media.Title}");
         }
+        
     }
 
     public List<Media> SearchMedia(string criteria)
@@ -67,8 +70,8 @@ public class Library
     {
         int totalMedia = mediaCollection.Count;
         int totalAvailableCopies = mediaCollection.Sum(m => m.Stock);
-        int borrowedMedia = loans.Count;
-
+        int borrowedMedia = loans.Count();
+        
         Console.WriteLine("Statistiques de la bibliothèque :");
         Console.WriteLine($"- Nombre total de médias : {totalMedia}");
         Console.WriteLine($"- Nombre total d'exemplaires disponibles : {totalAvailableCopies}");
