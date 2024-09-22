@@ -1,6 +1,7 @@
 namespace TDMare.TdLibrairie;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Exception;
 
 public class Library
 {
@@ -23,17 +24,27 @@ public class Library
 
     public void BorrowMedia(Media media, string user)
     {
-        if (media.Stock > 0)
+        try
         {
+            // Tentative de décrémenter le stock du média
+            if (media.Stock <= 0)
+            {
+                // Lever une exception si le stock est épuisé
+                throw new OutOfStockException($"{media.Title} n'est pas disponible en stock.");
+            } 
+
+            // Si le stock est disponible, on procède à l'emprunt
             media.Stock--;
             loans.Add(new Loan(media, user));
             Console.WriteLine($"{user} a emprunté {media.Title}");
         }
-        else
+        catch (OutOfStockException ex)
         {
-            Console.WriteLine($"{media.Title} n'est pas disponible.");
+            // Gestion du cas où le média est hors stock
+            Console.WriteLine(ex.Message);
         }
     }
+    
 
     public void ReturnMedia(Media media, string user)
     {

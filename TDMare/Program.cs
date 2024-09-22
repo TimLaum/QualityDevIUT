@@ -22,6 +22,7 @@ class Program
         try
         {
             library.BorrowMedia(book1, "Michael Jackson");
+            library.BorrowMedia(book1, "Michael Jackson");
             library.BorrowMedia(dvd1, "Michael Jackson");
             library.BorrowMedia(cd1, "Patrick Bruel");
             library.BorrowMedia(cd1, "Zinédine Zidane");

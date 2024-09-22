@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TDMare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bc0b09bdc205263eaf8ba2f0323e6d6dc2f9227")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+670f23f7d56eb13042f0a4d7abe4a6d96ada112b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TDMare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TDMare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
