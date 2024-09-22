@@ -48,19 +48,23 @@ public class Library
 
     public void ReturnMedia(Media media, string user)
     {
+        // Recherche du prêt correspondant dans la liste des prêts
         Loan loan = loans.FirstOrDefault(l => l.BorrowedMedia == media && l.User == user);
-        if (loan != null)
+
+        // Vérification si le prêt existe
+        if (loan == null)
         {
-            media.Stock++;
-            loans.Remove(loan);
-            Console.WriteLine($"{user} a retourné {media.Title}");
+            // Lancer une exception si aucun prêt ne correspond
+            throw new LoanNotFoundException($"{user} n'a pas emprunté {media.Title}.");
         }
-        else
-        {
-            Console.WriteLine($"{user} n'a pas emprunté {media.Title}");
-        }
-        
+
+        // Si le prêt est trouvé, on augmente le stock et on supprime le prêt
+        media.Stock++;
+        loans.Remove(loan);
+        Console.WriteLine($"{user} a retourné {media.Title}");
     }
+        
+    
 
     public List<Media> SearchMedia(string criteria)
     {
